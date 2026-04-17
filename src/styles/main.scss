@@ -113,17 +113,9 @@ body {
                     letter-spacing: 1px;
                     border: 1px solid variaveis.$corBotaoPrimario;
                     
-                    &:hover {
-                            background-color: lighten(variaveis.$corBotaoPrimario, 3%);
-                        }
-                    
                     &--secundary {
                         background-color: variaveis.$corBotaoSecundario;
                         border-color: variaveis.$corBotaoSecundario;
-
-                        &:hover {
-                            background-color: lighten(variaveis.$corBotaoSecundario, 3%);
-                        }
                     }
 
                     &--dark {
